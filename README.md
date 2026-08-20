@@ -111,6 +111,18 @@ English:
 - Online AI APIs are called only when configured and needed for summary or knowledge discovery.
 - Candidate knowledge is not saved into the formal knowledge base without human confirmation.
 
+## 设备兼容性｜Device Compatibility
+
+目前测试版是为 **Mac M 系列芯片（Apple Silicon）** 开发和打包的，仅支持 Apple Silicon 设备。
+
+Intel 芯片 Mac、Windows、Linux、iPhone、iPad 和 Android 设备暂不支持。
+
+English:
+
+The current test version is built for **Mac computers with Apple Silicon / M-series chips** only.
+
+Intel-based Macs, Windows, Linux, iPhone, iPad, and Android devices are not supported yet.
+
 ## 安装方式｜Installation
 
 请到 GitHub Release 下载测试版 DMG：
@@ -131,7 +143,7 @@ Download the macOS test DMG from GitHub Releases, install it, and complete the f
 ## 当前版本｜Current Version
 
 - Version: `v1.0.0-test`
-- Platform: macOS Apple Silicon
+- Platform: macOS Apple Silicon / Mac M-series chips only
 - Package: `VictoryMeeting-1.0.0-arm64.dmg`
 
 ## 使用建议｜Recommended Usage
@@ -139,4 +151,3 @@ Download the macOS test DMG from GitHub Releases, install it, and complete the f
 会前明确主题，会中正常沟通，会后检查纪要、待办和候选知识。真正有价值的信息，经人工确认后再进入知识库。
 
 Before a meeting, define the topic. During the meeting, communicate naturally. After the meeting, review notes, action items, and candidate knowledge before saving valuable information into the knowledge base.
-
